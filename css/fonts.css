@@ -3,8 +3,8 @@
     font-weight: 400;
     font-style: normal;
     src: local(''),
-    url("/fonts/woff/Roboto-Regular.woff") format("woff"),
-    url("/fonts/woff2/Roboto-Regular.woff2") format("woff2");
+    url("../fonts/woff/Roboto-Regular.woff") format("woff"),
+    url("../fonts/woff2/Roboto-Regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -12,8 +12,8 @@
     font-weight: 400;
     font-style: italic;
     src: local(''),
-    url("/fonts/woff/Roboto-Italic.woff") format("woff"),
-    url("/fonts/woff2/Roboto-Italic.woff2") format("woff2");
+    url("../fonts/woff/Roboto-Italic.woff") format("woff"),
+    url("../fonts/woff2/Roboto-Italic.woff2") format("woff2");
 }
 
 @font-face {
@@ -21,6 +21,6 @@
     font-weight: 400;
     font-style: normal;
     src: local(''),
-    url("/fonts/woff/RussoOne-Regular.woff") format("woff"),
-    url("/fonts/woff2/RussoOne-Regular.woff2") format("woff2");
+    url("../fonts/woff/RussoOne-Regular.woff") format("woff"),
+    url("../fonts/woff2/RussoOne-Regular.woff2") format("woff2");
 }
