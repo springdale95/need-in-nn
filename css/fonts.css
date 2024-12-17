@@ -1,23 +1,5 @@
 @font-face {
     font-family: "Roboto";
-    font-weight: 100;
-    font-style: normal;
-    src: local(''),
-    url("/fonts/woff/Roboto-Thin.woff") format("woff"),
-    url("/fonts/woff2/Roboto-Thin.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: "Roboto";
-    font-weight: 300;
-    font-style: normal;
-    src: local(''),
-    url("/fonts/woff/Roboto-Light.woff") format("woff"),
-    url("/fonts/woff2/Roboto-Light.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: "Roboto";
     font-weight: 400;
     font-style: normal;
     src: local(''),
@@ -27,27 +9,18 @@
 
 @font-face {
     font-family: "Roboto";
-    font-weight: 500;
-    font-style: normal;
+    font-weight: 400;
+    font-style: italic;
     src: local(''),
-    url("/fonts/woff/Roboto-Medium.woff") format("woff"),
-    url("/fonts/woff2/Roboto-Medium.woff2") format("woff2");
+    url("/fonts/woff/Roboto-Italic.woff") format("woff"),
+    url("/fonts/woff2/Roboto-Italic.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: "Roboto";
-    font-weight: 700;
+    font-family: "RussoOne";
+    font-weight: 400;
     font-style: normal;
     src: local(''),
-    url("/fonts/woff/Roboto-Bold.woff") format("woff"),
-    url("/fonts/woff2/Roboto-Bold.woff2") format("woff2");
-}
-
-@font-face {
-    font-family: "Roboto";
-    font-weight: 900;
-    font-style: normal;
-    src: local(''),
-    url("/fonts/woff/Roboto-Black.woff") format("woff"),
-    url("/fonts/woff2/Roboto-Black.woff2") format("woff2");
+    url("/fonts/woff/RussoOne-Regular.woff") format("woff"),
+    url("/fonts/woff2/RussoOne-Regular.woff2") format("woff2");
 }

@@ -1,8 +1,6 @@
 :root {
-    --base-gray-color: #515050;
+    --base-gray-color: #969696;
     --base-orange-color: #FD6B38;
-    --base-hover-color: rgba(253, 107, 56, 0.8);
-    --base-active-color: rgba(253, 107, 56, 0.6);;
     --transition-duration: .3s;
 }
 
@@ -34,7 +32,7 @@ img {
 
 body {
     font-size: 16px;
-    font-family: "Roboto", serif;
+    font-family: "RussoOne", serif;
     word-break: normal;
 }
 
@@ -47,17 +45,17 @@ ul, ul li {
 /* Header */
 
 .header {
-
+    height: 130px;
 }
 
 .container {
     margin: 0 auto;
     max-width: 1920px;
-    padding: 0 50px;
-    height: 130px;
 }
 
 .header__container {
+    height: 130px;
+    padding: 0 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -72,29 +70,25 @@ ul, ul li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .nav__link {
     color: var(--base-gray-color);
-    font-weight: 300;
-    font-size: 24px;
+    font-weight: 400;
+    font-size: 20px;
     text-align: center;
     transition: color var(--transition-duration), background-color var(--transition-duration);
 }
 
-.nav__link:focus-visible {
-    background-color: var(--base-orange-color);
-    outline: none;
-}
-
 .nav__link:hover {
-    color: var(--base-hover-color);
+    color: var(--base-orange-color);
     text-decoration: underline;
 }
 
 .nav__link:active {
-    color: var(--base-active-color);
+    color: white;
+    background-color: var(--base-orange-color);
 }
 
 .header__burger-btn {
@@ -136,9 +130,11 @@ ul, ul li {
     transform: translateY(0) rotate(-45deg);
 }
 
+/* Main */
+
 /* Media */
 
-@media (max-width: 992px) {
+@media (max-width: 912px) {
 
     .logo-link {
         z-index: 1;
@@ -166,6 +162,11 @@ ul, ul li {
         color: white;
         font-size: 26px;
         padding: 15px 0;
+    }
+
+    .nav__link:hover {
+        color: white;
+        text-decoration: underline;
     }
 
     .header.open .nav {
